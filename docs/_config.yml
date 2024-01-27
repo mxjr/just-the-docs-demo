@@ -1,0 +1,21 @@
+title: Just the Docs Demo
+description: A starter template for a Jeykll site using the Just the Docs theme!
+author: Michael Raskey
+github_username: mxjr
+repo: https://github.com/mxjr/just-the-docs-demo
+
+url: https://mxjr.github.io/just-the-docs-demo
+baseurl: /just-the-docs-demo
+
+plugins:
+  - jekyll-relative-links
+  - jekyll-remote-theme
+relative_links:
+  enabled: true
+  collections: true
+remote_theme: just-the-docs/just-the-docs
+
+footer_content: A simplified <i>Just the Docs</i> template for Jekyll by Michael Raskey.
+search_enabled: true
+#theme: just-the-docs
+
